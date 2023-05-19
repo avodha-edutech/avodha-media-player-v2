@@ -1,0 +1,72 @@
+body
+{
+    background: black;
+}
+
+h1
+{
+    margin-top: 250px;
+    font-family: Poppins;
+    color: rgb(71, 71, 71);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-right: 0;
+    margin-left: 0;
+    font-size: 20px;
+}
+
+.player
+{
+    position: absolute !important;
+    height: 100% !important;
+    width: 100% !important;
+    top: 0 !important;
+    left: 0 !important;
+    z-index: 999 !important;
+}
+
+video
+{
+    display: block !important;
+}
+
+@media (min-width: 300px)
+{
+    h1
+    {
+        font-size: 22px;
+    }
+}
+
+@media (min-width: 400px)
+{
+    h1
+    {
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 600px)
+{
+    h1
+    {
+        font-size: 28px;
+    }
+}
+
+@media (min-width: 900px)
+{
+    h1
+    {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 1000px)
+{
+    h1
+    {
+        font-size: 35px;
+    }
+}
